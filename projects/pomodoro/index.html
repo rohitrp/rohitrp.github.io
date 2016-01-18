@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pomodoro Timer</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+  
+  <body>
+    <div class="time-head">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-2"></div>
+          <div class="col-xs-3">
+            <p class="text-center">Break Length</p>
+          </div>
+          <div class="col-xs-2"></div>
+          <div class="col-xs-3">
+            <p class="text-center">Session Length</p>
+          </div>
+          <div class="col-xs-2"></div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="time-adjust">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-xs-2"></div>
+          <div class="col-xs-1">
+            <i class="fa fa-minus" id="break-decrease"></i>
+          </div>
+          <div class="col-xs-1">
+            <span class="break-time">5</span>
+          </div>
+          <div class="col-xs-1">
+            <i class="fa fa-plus" id="break-increase"></i>
+          </div>
+          <div class="col-xs-2"></div>
+          <div class="col-xs-1">
+            <i class="fa fa-minus" id="session-decrease"></i>
+          </div>
+          <div class="col-xs-1">
+            <span class="session-time">25</span>
+          </div>
+          <div class="col-xs-1">
+            <i class="fa fa-plus" id="session-increase"></i>
+          </div>
+          <div class="col-xs-2"></div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="start text-center">
+      <div class="container">
+        <div class="row">
+          <h3><span>Start</span></h3>
+          <img src="http://s21.postimg.org/6i7z15clv/ripple.png" width="100"/>
+        </div>
+      </div>
+    </div>
+ 
+    <div class="timer">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-3"></div>
+          <div class="col-xs-3">
+            <div class="minutes text-center">
+              <p></p>
+            </div>
+          </div>
+          <div class="col-xs-3">
+            <div class="seconds text-center">
+              <p></p>
+            </div>
+          </div>
+          <div class="col-xs-3"></div>
+        </div>
+        <div class="status text-center">
+          <h2></h2>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
