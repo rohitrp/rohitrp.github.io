@@ -1,0 +1,35 @@
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.jumbotron {
+  background-color: #fff;
+  border-bottom: 1px solid #bbb;
+}
+
+.jumbotron h1 {
+  color: #666;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+.calculator .row {
+  margin-bottom: 2%;
+}
+
+button {
+  width: 100%;
+  min-width: 60px;
+}
+
+span {
+  font-size: 30px;
+}
+
+#display {
+  font-size: 30px
+}
+
+#result {
+  font-size: 25px;
+}
