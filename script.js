@@ -1,7 +1,7 @@
 $(document).ready(function() {
   $('.projects .mdl-card').click(function() {
     var url = $(this).find('a').attr('href');
-    window.open(url, '_blank');
+    window.open(url);
   });
   
   $(document).scroll(function() {
