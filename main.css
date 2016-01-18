@@ -345,19 +345,19 @@ body {
 * Footer
 **/
 footer {
-  height: 5px;
-}
-footer > div {
-  position: relative;
-  bottom: 8px;
-}
-footer li {
+  background-color: #424242;
+  height: 25px;
   color: #fff;
-  position: relative;
-  bottom: 5px;
-  right: 10px;
-  font-size: 1.2em;
 }
+footer .mdl-logo {
+  font-size: 23px;
+}
+footer span {
+  position: relative;
+  bottom: 4px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
 
 
 @media (max-width: 650px) {
@@ -366,7 +366,7 @@ footer li {
   }
 }
 
-@media (max-width: 470px) {
+@media (max-width: 500px) {
   body {
     font-size: 9px;
   }
@@ -377,7 +377,7 @@ footer li {
     display: none;
   }
   .mdl-navigation {
-    width: 311px;
+    width: 315px;
     position: fixed;
     right: 0;
   }
